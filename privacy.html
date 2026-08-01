@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Privacy Policy for Caffeine Tracker."
+    >
+    <meta name="color-scheme" content="light dark">
+    <title>Privacy Policy · Caffeine Tracker</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --background: #fbf9f6;
+        --surface: #ffffff;
+        --surface-soft: #f4efe7;
+        --border: #ede5da;
+        --text: #1a1614;
+        --muted: #7a716a;
+        --accent: #c8802f;
+        --accent-soft: #fbf1e2;
+        --max-width: 760px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        background: var(--background);
+        color: var(--text);
+        font-family:
+          -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI",
+          sans-serif;
+        font-size: 16px;
+        line-height: 1.7;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      a {
+        color: var(--accent);
+        text-underline-offset: 3px;
+      }
+
+      a:hover {
+        text-decoration-thickness: 2px;
+      }
+
+      .page {
+        width: min(calc(100% - 40px), var(--max-width));
+        margin: 0 auto;
+        padding: 28px 0 64px;
+      }
+
+      .topbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        margin-bottom: 72px;
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        color: var(--text);
+        font-size: 17px;
+        font-weight: 700;
+        text-decoration: none;
+      }
+
+      .brand-mark {
+        width: 28px;
+        height: 28px;
+        border: 7px solid var(--accent);
+        border-right-color: var(--border);
+        border-radius: 50%;
+      }
+
+      nav {
+        display: flex;
+        gap: 18px;
+        font-size: 14px;
+        font-weight: 600;
+      }
+
+      nav a[aria-current="page"] {
+        color: var(--text);
+        text-decoration: none;
+      }
+
+      .eyebrow {
+        margin: 0 0 14px;
+        color: var(--accent);
+        font-family: ui-monospace, "SFMono-Regular", Menlo, monospace;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+      }
+
+      h1,
+      h2 {
+        letter-spacing: -0.035em;
+      }
+
+      h1 {
+        max-width: 660px;
+        margin: 0;
+        font-size: clamp(42px, 8vw, 66px);
+        line-height: 1.02;
+      }
+
+      .lede {
+        max-width: 650px;
+        margin: 24px 0 0;
+        color: var(--muted);
+        font-size: 19px;
+        line-height: 1.6;
+      }
+
+      .updated {
+        margin: 20px 0 0;
+        color: var(--muted);
+        font-family: ui-monospace, "SFMono-Regular", Menlo, monospace;
+        font-size: 12px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .summary {
+        margin: 48px 0 56px;
+        padding: 24px;
+        border: 1px solid var(--border);
+        border-radius: 22px;
+        background: var(--accent-soft);
+      }
+
+      .summary strong {
+        display: block;
+        margin-bottom: 8px;
+        font-size: 18px;
+      }
+
+      .summary p {
+        margin: 0;
+      }
+
+      section {
+        padding: 34px 0;
+        border-top: 1px solid var(--border);
+      }
+
+      h2 {
+        margin: 0 0 16px;
+        font-size: 27px;
+        line-height: 1.2;
+      }
+
+      p {
+        margin: 0 0 16px;
+      }
+
+      p:last-child {
+        margin-bottom: 0;
+      }
+
+      ul {
+        margin: 12px 0 0;
+        padding-left: 22px;
+      }
+
+      li {
+        margin: 10px 0;
+        padding-left: 4px;
+      }
+
+      .data-card {
+        margin: 18px 0;
+        padding: 20px;
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        background: var(--surface);
+      }
+
+      .data-card h3 {
+        margin: 0 0 8px;
+        font-size: 18px;
+      }
+
+      .data-card p {
+        color: var(--muted);
+      }
+
+      .contact {
+        padding: 26px;
+        border-radius: 22px;
+        background: var(--surface-soft);
+      }
+
+      .contact code {
+        padding: 2px 6px;
+        border-radius: 6px;
+        background: var(--surface);
+        color: var(--text);
+        font-family: ui-monospace, "SFMono-Regular", Menlo, monospace;
+        font-size: 0.88em;
+      }
+
+      footer {
+        padding-top: 28px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      @media (max-width: 560px) {
+        .page {
+          width: min(calc(100% - 32px), var(--max-width));
+          padding-top: 20px;
+        }
+
+        .topbar {
+          align-items: flex-start;
+          flex-direction: column;
+          margin-bottom: 52px;
+        }
+
+        nav {
+          width: 100%;
+          justify-content: space-between;
+        }
+
+        .summary {
+          margin-top: 36px;
+        }
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --background: #14100d;
+          --surface: #1e1815;
+          --surface-soft: #282019;
+          --border: #332a23;
+          --text: #f5f0ea;
+          --muted: #b0a599;
+          --accent: #e09a46;
+          --accent-soft: #3a2a16;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <header class="topbar">
+        <a class="brand" href="#top" aria-label="Caffeine Tracker home">
+          <span class="brand-mark" aria-hidden="true"></span>
+          Caffeine Tracker
+        </a>
+        <nav aria-label="Legal pages">
+          <a href="privacy.html" aria-current="page">Privacy</a>
+          <a href="termsofuse.html">Terms of Use</a>
+        </nav>
+      </header>
+
+      <article id="top">
+        <p class="eyebrow">Caffeine Tracker · Privacy</p>
+        <h1>Privacy, without the mystery.</h1>
+        <p class="lede">
+          Caffeine Tracker is designed as a local-first tracker. Your drink,
+          hydration, sleep-preference, and goal data stays on your device. We
+          do not sell personal information or use advertising trackers.
+        </p>
+        <p class="updated">Effective date · August 1, 2026</p>
+
+        <div class="summary">
+          <strong>The short version</strong>
+          <p>
+            No account is required. Most data never leaves your device. Apple
+            and RevenueCat process limited purchase information only when
+            needed to offer, verify, restore, and manage Premium access.
+          </p>
+        </div>
+
+        <section aria-labelledby="scope">
+          <h2 id="scope">1. Scope</h2>
+          <p>
+            This Privacy Policy explains how Caffeine Tracker ("Caffeine
+            Tracker," "we," "us," or "our") handles information when you use
+            the Caffeine Tracker iOS or iPadOS application (the "App") or contact us for
+            support.
+          </p>
+        </section>
+
+        <section aria-labelledby="information">
+          <h2 id="information">2. Information handled by the App</h2>
+
+          <div class="data-card">
+            <h3>Information stored locally on your device</h3>
+            <p>
+              Caffeine Tracker stores the information you enter and the preferences you
+              select in local app storage, including:
+            </p>
+            <ul>
+              <li>
+                Caffeine entries, such as beverage name and type, caffeine
+                amount, serving size, time consumed, time-zone offset, and any
+                notes you add.
+              </li>
+              <li>Daily hydration entries and water-goal settings.</li>
+              <li>
+                Onboarding choices, caffeine goals and limits, usual bedtime
+                and wake time, sensitivity setting, and taper-plan settings.
+              </li>
+              <li>
+                Favourite drinks, theme, language, notification preferences,
+                and onboarding status.
+              </li>
+            </ul>
+            <p>
+              This information is used on your device to generate your logs,
+              charts, reminders, badges, and caffeine or bedtime estimates. We
+              do not receive a copy of this local tracking data.
+            </p>
+          </div>
+
+          <div class="data-card">
+            <h3>Purchase and subscription information</h3>
+            <p>
+              Purchases are processed by Apple through the App Store. Caffeine Tracker
+              uses RevenueCat to display products, validate purchases, restore
+              purchases, prevent purchase fraud, and determine whether Premium
+              features should be available.
+            </p>
+            <p>
+              RevenueCat may process an automatically generated anonymous App
+              User ID, device type, operating system, locale and currency,
+              app-use timestamps needed for purchase services, Apple receipt
+              data, product identifiers, transaction history, and subscription
+              or entitlement status. Caffeine Tracker does not send your caffeine,
+              hydration, bedtime, or notes data to RevenueCat. We do not
+              receive your payment-card details.
+            </p>
+          </div>
+
+          <div class="data-card">
+            <h3>Notifications</h3>
+            <p>
+              If you grant permission, Caffeine Tracker schedules caffeine cut-off, water,
+              and evening reminders locally on your device using the times you
+              selected. The App does not register a remote push-notification
+              token or send these reminder schedules to our servers. You can
+              change reminders in Caffeine Tracker and revoke notification permission in
+              iOS Settings at any time.
+            </p>
+          </div>
+
+          <div class="data-card">
+            <h3>Support communications</h3>
+            <p>
+              If you contact us, we receive the information you voluntarily
+              provide, such as your email address, message, screenshots, and
+              purchase-support details. Please do not send medical records or
+              other sensitive information.
+            </p>
+          </div>
+        </section>
+
+        <section aria-labelledby="not-collected">
+          <h2 id="not-collected">3. What we do not collect</h2>
+          <p>
+            Caffeine Tracker does not require an account and does not access your contacts,
+            precise location, photos, microphone, camera, advertising
+            identifier, or Apple Health data. We do not sell personal
+            information, serve third-party ads, or track you across apps and
+            websites owned by other companies.
+          </p>
+        </section>
+
+        <section aria-labelledby="use">
+          <h2 id="use">4. How information is used</h2>
+          <p>Information is used only as reasonably necessary to:</p>
+          <ul>
+            <li>Provide and personalize the App's on-device features.</li>
+            <li>Calculate caffeine and sleep-related estimates.</li>
+            <li>Schedule the local reminders you request.</li>
+            <li>Process, verify, restore, and support App Store purchases.</li>
+            <li>Respond to support requests and resolve technical issues.</li>
+            <li>Protect the App from fraud and comply with legal obligations.</li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="sharing">
+          <h2 id="sharing">5. Service providers and disclosure</h2>
+          <p>
+            We disclose information only to service providers needed for the
+            App's operation, when you direct us to do so, or when required by
+            law.
+          </p>
+          <ul>
+            <li>
+              <strong>Apple:</strong> App distribution, StoreKit purchases,
+              subscriptions, refunds, and operating-system services. See
+              <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.
+            </li>
+            <li>
+              <strong>RevenueCat:</strong> purchase validation, entitlement
+              management, purchase analytics, and restoration. See
+              <a href="https://www.revenuecat.com/privacy/">RevenueCat's Privacy Policy</a>.
+            </li>
+          </ul>
+          <p>
+            RevenueCat may process information in the United States or other
+            countries where it and its providers operate. Its contractual and
+            legal safeguards apply to those transfers.
+          </p>
+        </section>
+
+        <section aria-labelledby="retention">
+          <h2 id="retention">6. Retention and deletion</h2>
+          <p>
+            Local tracking data remains on your device until you edit or delete
+            an entry or remove the App. Uninstalling Caffeine Tracker generally removes its
+            local database and settings, although copies may remain in an Apple
+            device backup according to your iCloud or device-backup settings.
+          </p>
+          <p>
+            Apple and RevenueCat retain transaction information according to
+            their own retention obligations and policies. Support messages are
+            retained only as long as reasonably necessary to answer your
+            request, maintain support records, prevent abuse, and meet legal
+            obligations.
+          </p>
+          <p>
+            To request access to or deletion of information associated with a
+            support request or anonymous purchase record, contact us using the
+            details below. We may ask for limited information needed to locate
+            the record and verify the request. Some purchase records may need
+            to be retained for legal, accounting, fraud-prevention, or dispute
+            purposes.
+          </p>
+        </section>
+
+        <section aria-labelledby="rights">
+          <h2 id="rights">7. Your choices and privacy rights</h2>
+          <p>
+            Depending on where you live, you may have rights to access,
+            correct, delete, restrict, or object to processing of personal
+            information, or request a portable copy. You may also withdraw
+            consent where processing relies on consent and complain to your
+            local data-protection authority.
+          </p>
+          <p>
+            Because Caffeine Tracker has no user accounts and local tracking data is not
+            transmitted to us, we cannot access or remotely delete that local
+            data. You control it directly through the App and your device.
+          </p>
+        </section>
+
+        <section aria-labelledby="security">
+          <h2 id="security">8. Security</h2>
+          <p>
+            We use reasonable administrative and technical safeguards designed
+            to protect information. No storage or transmission system can be
+            guaranteed to be completely secure, and you are responsible for
+            protecting access to your device and Apple Account.
+          </p>
+        </section>
+
+        <section aria-labelledby="children">
+          <h2 id="children">9. Children's privacy</h2>
+          <p>
+            Caffeine Tracker is not directed to children under 13, and we do not knowingly
+            collect personal information from children under 13. If you believe
+            a child has provided personal information through a support
+            message, contact us so we can delete it. Minors should discuss
+            caffeine use with a parent, guardian, or qualified healthcare
+            professional.
+          </p>
+        </section>
+
+        <section aria-labelledby="changes">
+          <h2 id="changes">10. Changes to this policy</h2>
+          <p>
+            We may update this policy as the App or legal requirements change.
+            The effective date at the top will show when it was last revised.
+            Material changes will be communicated in the App or through another
+            appropriate channel when required.
+          </p>
+        </section>
+
+        <section aria-labelledby="contact">
+          <h2 id="contact">11. Contact</h2>
+          <div class="contact">
+            <p>
+              For privacy questions or requests, contact the developer of
+              Caffeine Tracker at
+              <a href="mailto:emiryavcin20@gmail.com">emiryavcin20@gmail.com</a>.
+            </p>
+            <p>
+              Before publishing this page, replace the placeholder above with
+              your monitored support email and add your legal name or company
+              name and business address if required in your jurisdiction.
+            </p>
+          </div>
+        </section>
+      </article>
+
+      <footer>
+        © 2026 Caffeine Tracker. All rights reserved.
+      </footer>
+    </main>
+  </body>
+</html>
